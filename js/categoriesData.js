@@ -31,7 +31,7 @@ const categoriesData = () => {
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
                         <div class="btn__all">
-                            <a href="/categories.html?ganre=${ganre}" class="primary-btn">View All <span class="arrow_right"></span></a>
+                            <a href="./categories.html?ganre=${ganre}" class="primary-btn">View All <span class="arrow_right"></span></a>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const categoriesData = () => {
                             </div>
                             <div class="product__item__text">
                                 ${tagsBlock.outerHTML}
-                                <h5><a href="/anime-details.html?itemId=${item.id}">${item.title}</a></h5>
+                                <h5><a href="./anime-details.html?itemId=${item.id}">${item.title}</a></h5>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ const categoriesData = () => {
                 <div class="product__sidebar__view__item set-bg mix" data-setbg="${item.image}">
                     <div class="ep">${item.rating} / 10</div>
                     <div class="view"><i class="fa fa-eye"></i> ${item.views}</div>
-                    <h5><a href="/anime-details.html">${item.title}</a></h5>
+                    <h5><a href="./anime-details.html">${item.title}</a></h5>
                 </div>
             `)
         })
